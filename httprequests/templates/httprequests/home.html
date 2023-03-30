@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<div class="container text-center">
+    <h1 style="color:black; margin-top:200px">RGB-to-Hexadecimal Converter</h1>
+    <p>Enter RGB values between 0 and 255 and click the 'convert' button</p>
+        <form action="{%url 'hexresult'%}">
+            <input type="number" placeholder="Red Value:" name="red" style="color:#FF0000">
+            <input type="number" placeholder="Green Value:" name="green" style="color:#00FF00">
+            <input type="number" placeholder="Blue Value:" name="blue" style="color:#0000FF">
+            <h2><input type="submit" value="Convert" class="btn btn-primary" style="background-color:black; margin-top:20px"></h2>
+        </form>
+</div>
